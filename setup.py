@@ -8,4 +8,10 @@ setup(
     install_requires=[
         'flask',
     ],
+    entry_points={
+        'console_scripts': [
+            'rpgchronicler=rpgchronicler.app:run',
+            'ping_rpgchronicler=rpgchronicler.app:ping',
+        ]
+    }
 )
