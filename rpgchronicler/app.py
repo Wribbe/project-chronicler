@@ -38,5 +38,3 @@ def ping():
     #s.send(("HELLO"*1024*2).encode('utf-8'))
     #breakpoint()
 
-
-
